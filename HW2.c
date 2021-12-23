@@ -1,7 +1,4 @@
-/*
-G01337128
-Yaswanth Reddy Manukonda
-*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
@@ -19,7 +16,7 @@ bool validated = false;
 bool res = true;
 //flag used to check if A or D is only entered when asked for sorting type
 bool correct = false;
-//used to store sorting type 
+//used to store sorting type
 char sortingType;
 
 //size of the input character strings array
@@ -139,4 +136,3 @@ int main(){
      printf("Input string with Highest ASCII value is %s\n",inputStrings[9]);
      printf("====End of the program==== \n");
 }
-
